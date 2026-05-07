@@ -37,3 +37,36 @@
 - Stripe / Mercado Pago para pagos (si aplica)
 
 ## 📁 Estructura del proyecto (ejemplo simplificado)
+
+panaderia-reposteria/
+├── backend/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ └── server.js
+├── frontend/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ └── App.js
+│ └── public/
+├── database/
+│ └── schema.sql
+├── docs/
+├── .env
+└── README.md
+
+
+## 🚀 Instalación y uso
+
+### Requisitos previos
+- Node.js (v18+)
+- npm o yarn
+- Base de datos (MySQL/PostgreSQL/MongoDB)
+
+### Pasos para ejecutar el proyecto
+
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/tuusuario/panaderia-reposteria.git
+   cd panaderia-reposteria
