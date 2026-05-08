@@ -6,4 +6,28 @@
 
 body{
     background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 25% 1fr;
+    grid-template-areas: 
+    "nav nav"
+    "article figure";
+    height: 100vh; width: 100vw;
+}
+
+.nav-container{
+    grid-area: nav;
+    width: 100vw;
+    border: 1px solid black;
+
+}
+
+.article-container{
+    grid-area: article;
+    border: 1px solid black;
+}
+
+.figure-container{
+    grid-area: figure;
+    border: 1px solid black;
 }
